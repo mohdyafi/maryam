@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam's Favorite Things</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffe6f2;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff66b3;
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #ff3399;
+            border-bottom: 2px dotted #ff99cc;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .favorite {
+            font-size: 1.5em;
+            color: #ff0066;
+            margin: 10px 0;
+        }
+
+        .activities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .activity {
+            background-color: #ffccdd;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #ff66b3;
+        }
+
+        .animal-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        .animal-info img {
+            width: 400px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .about-me-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .about-me-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid pink;
+        }
+
+        .about-me-text {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .square-photo {
+            width: 400px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>My Favorite Things</h1>
+        <p>By: Maryam Faiha</p>
+        <p>Grade 1B, International School Ajman</p>
+    </div>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <div class="about-me-container">
+            <img src="maryam_photo.jpg" alt="Photo of Maryam" class="about-me-photo">
+            <div class="about-me-text">
+                <p>My name is: <span class="favorite">MARYAM FAIHA</span></p>
+                <p>I am <span class="favorite">7</span> years old</p>
+                <p>My favorite color is: <span class="favorite" style="color: pink;">PINK</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>My Favorite Animal - Rabbit</h2>
+        <div class="animal-info">
+            <img src="rabbit.jpg" alt="Rabbit">
+        </div>
+        <p class="favorite">I love: RABBIT</p>
+    </div>
+
+    <div class="card">
+        <h2>My Favorite Food - Fried Rice</h2>
+        <div class="animal-info">
+            <img src="friedrice.jpg" alt="Fried Rice">
+        </div>
+        <p class="favorite">Yummy! I like to eat: FRIED RICE</p>
+    </div>
+
+    <div class="card">
+        <h2>My Family</h2>
+        <div class="animal-info">
+            <img src="family.jpeg" alt="Family Photo" class="square-photo">
+        </div>
+        <p class="favorite">This is my family:</p>
+    </div>
+
+    <div class="card">
+        <h2>Things I Love To Do</h2>
+        <div class="activities">
+            <span class="activity">Drawing</span>
+            <span class="activity">Reading</span>
+            <span class="activity">Playing</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Thank You!</h2>
+        <p>Thanks for visiting my website!</p>
+    </div>
+</body>
+
+</html>
